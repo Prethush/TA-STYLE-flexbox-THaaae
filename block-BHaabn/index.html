@@ -1,8 +1,65 @@
-<!-- 
-- Create a gallery using flexbox according to the layout shown below.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/474e96f807.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper flex">
+            <a class="logo" href="#">
+                <img src="assets/media/altcampus-logo.jpg" alt="logo">
+            </a>
+            <nav class="nav">
+                <a href="#">home</a>
+                <a class="green" href="#">gallery</a>
+                <a href="#">about</a>
+            </nav>
+        </div>
+    </header>
 
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+    <main>
+        <section>
+            <article class="gallery container">
+                <h1 class="heading">gallery</h1>
+                <div class="content">
+                    <div class="box box1">
+                        <img src="assets/media/01.png" alt="Classroom">
+                    </div>
+                    <div class="box box2">
+                        <img src="assets/media/02.png" alt="A lady">
+                    </div>
+                    <div class="box box3">
+                        <img src="assets/media/03.png" alt="Gallery">
+                    </div>
+                    <div class="box box4">
+                        <img src="assets/media/04.png" alt="A girl lookinf at a picture">
+                    </div>
+                     <div class="box box5">
+                        <img src="assets/media/05.png" alt="A man looking at a picture">
+                     </div> 
+                     <div class="box box6">
+                        <img src="assets/media/06.png" alt="Art gallery">
+                     </div>  
+                </div>
+            </article>
+        </section>
+    </main>
 
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
--->
+    <footer class="footer">
+        <div class="flex container">
+            <small>&#169; AltCampus</small>
+            <nav class="navigation">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </nav>
+            
+        </div>
+       
+    </footer>
+</body>
+</html>
