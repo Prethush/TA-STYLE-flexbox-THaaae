@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,500;1,900&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/* Container */
+
+.container {
+    max-width: 1040px;
+    padding: 32px 0;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container {
+    padding: 10px 0;
+}
+.header {
+    background-color: #20345d;
+}
+
+.logo img {
+    margin-left: 20px;
+    width: 70px;
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+/* Section */
+
+.wrapper {
+    margin-top: 40px;
+}
+
+.aside {
+    width: 30%;
+    background-color: #3fe0d0;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.article {
+    width: 60%;
+}
+
+
+/* Box1 */
+.box1 {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    height: 50%;
+    justify-content: space-evenly;
+} 
+
+.box1 a {
+    /* background-color: red; */
+    flex: 0 0 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.icons img {
+    margin-right: 15px;
+}
+
+.box1 .brown {
+    border: 2px solid brown;
+}
+
+/* Box2 */ 
+
+
+.box2 a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+
+/* Box3 */
+
+.heading {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #20345d;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 16px;
+    color: #20345d;
+}
+
+.box3 a {
+    display: block;
+    background-color: #0aef0a;
+    width: 150px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.box3 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #20345d;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.navigation a {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 18px;
+}

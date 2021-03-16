@@ -1,8 +1,66 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/474e96f807.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+            <a class="logo" href="#">
+                <img src="assets/icons/logo.jpg" alt="logo">
+            </a>
+            <nav class="nav">
+                <a href="#"><img src="assets/icons/bell.svg" alt="bell"></a>
+                <a href="#">Sara Jone</a>
+                <a href="#"><img src="assets/icons/user.svg" alt="user" class="user"></a>
+            </nav>
+        </div>
+    </header>
 
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+    <main>
+        <section class="container">
+            <div class="wrapper flex">
+                <aside class="aside">
+                    <div class="box box1">
+                        <a class="icons" href="#"><img src="assets/icons/dashboard.svg" alt="dashboard">Dashboard</a>
+                        <a class="icons brown" href="#"><img src="assets/icons/article.svg" alt="articles">Articles</a>
+                        <a class="icons" href="#"><img src="assets/icons/analytics.svg" alt="analytics">Analytics</a>
+                        <a class="icons" href="#"><img src="assets/icons/inbox.svg" alt="inbox">Inbox</a>
+                        <a class="icons" href="#"><img src="assets/icons/setting.svg" alt="settings">Settings</a>
+                    </div>
 
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+                    <div class="box box2">
+                        <a class="icons" href="#"><img src="assets/icons/log-out.svg" alt="logout">Log out</a>
+                    </div>
+                </aside>
+                   
+                <article class="article">
+                    <div class="box box3">
+                        <img src="assets/01.png" alt="Office">
+                        <h1 class="heading">Why are we doing AltCampus?</h1>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima nemo officia error commodi unde blanditiis quibusdam, consequuntur adipisci eius ea rem optio, tenetur atque soluta sapiente in labore vel.</p>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur expedita non accusamus voluptatibus, eligendi numquam aperiam beatae hic dolores ipsum.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </article>
+               
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container flex">
+            <small>&#169; AltCampus</small>
+            <nav class="navigation">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
